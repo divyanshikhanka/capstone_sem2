@@ -1,0 +1,149 @@
+.dark-footer {
+  background: #232e3c;
+  color: #fff;
+  padding: 48px 0 0;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 32px;
+  gap: 32px;
+}
+
+.footer-brand {
+  flex: 1 1 220px;
+}
+
+.footer-brand h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #ffb6c1;
+  margin-bottom: 0.2rem;
+}
+
+.footer-brand p {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.footer-col {
+  flex: 1 1 160px;
+}
+
+.footer-col h4 {
+  color: #ffb6c1;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-col a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.footer-col a:hover {
+  color: #f78ca2;
+}
+
+.footer-newsletter {
+  flex: 2 1 320px;
+  min-width: 260px;
+}
+
+.footer-newsletter h4 {
+  color: #ffb6c1;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-newsletter p {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 8px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  flex: 1;
+  background: #2e3a4b;
+  color: #fff;
+}
+
+.newsletter-form input::placeholder {
+  color: #ccc;
+}
+
+.newsletter-form button {
+  background: #f78ca2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.newsletter-form button:hover {
+  background: #ffb6c1;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 32px auto 0;
+  padding: 16px 32px 24px;
+  border-top: 1px solid #2e3a4b;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 18px;
+  font-size: 1.5rem;
+}
+
+.footer-socials a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'FontAwesome', sans-serif;
+  transition: color 0.2s;
+}
+
+.footer-socials a:hover {
+  color: #f78ca2;
+}
+
+.footer-copyright {
+  color: #fff;
+  font-size: 1rem;
+}
+  

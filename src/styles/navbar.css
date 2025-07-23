@@ -1,0 +1,79 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ff6fa5;
+  flex-shrink: 0;
+}
+
+.nav-center {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex: 1;
+}
+
+.nav-center li {
+  display: inline;
+}
+
+.nav-center button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-center button:hover {
+  color: #ff6fa5;
+}
+
+.nav-right {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.login-btn, .signup-btn {
+  padding: 8px 50px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.login-btn {
+  background-color: #f8d7e8;
+  color: #333;
+}
+
+.signup-btn {
+  background-color: #ff6fa5;
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: #f5c0db;
+}
+
+.signup-btn:hover {
+  background-color: #ff4d88;
+}
