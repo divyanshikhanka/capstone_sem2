@@ -13,7 +13,6 @@ import DestinationDetails from './pages/DestinationDetails';
 function App() {
   return (
     <Router>
-      {/* Navbar is fixed at the top */}
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
@@ -24,7 +23,6 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
-      {/* Footer at the bottom */}
       <Footer />
     </Router>
   );

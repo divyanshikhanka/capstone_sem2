@@ -1,63 +1,92 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  justify-content: space-between;
+  padding: 0 40px;
   background: rgba(255, 255, 255, 0.9);
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  height: 64px;
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   font-weight: 700;
   color: #ff6fa5;
   flex-shrink: 0;
+  margin-right: 60px;
+  font-family: 'Playfair Display', serif;
 }
 
 .nav-center {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 38px;
   justify-content: center;
+  align-items: center;
   flex: 1;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-center li {
-  display: inline;
+  display: inline-block;
 }
 
-.nav-center button {
+.nav-center a {
   background: none;
   border: none;
-  font-size: 1rem;
-  color: #333;
+  font-size: 1.15rem;
+  color: #222;
   cursor: pointer;
   transition: color 0.3s;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 0 2px 2px 2px;
+  position: relative;
 }
 
-.nav-center button:hover {
+.nav-center a.active {
+  color: #f78ca2;
+  font-weight: 600;
+}
+
+.nav-center a.active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #f78ca2;
+  border-radius: 2px;
+  margin-top: 2px;
+}
+
+.nav-center a:hover {
   color: #ff6fa5;
 }
 
 .nav-right {
   display: flex;
-  gap: 10px;
-  justify-content: flex-start;
+  gap: 0.7rem;
+  justify-content: flex-end;
   align-items: center;
   flex-shrink: 0;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .login-btn, .signup-btn {
-  padding: 8px 50px;
+  padding: 8px 22px;
   border: none;
-  border-radius: 20px;
+  border-radius: 16px;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1rem;
   transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
 }
 
 .login-btn {

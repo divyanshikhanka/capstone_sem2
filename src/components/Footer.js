@@ -13,27 +13,18 @@ function Footer() {
           <h4>Explore</h4>
           <ul>
             <li><a href="#">Destinations</a></li>
-            <li><a href="#">Travel Guides</a></li>
-            <li><a href="#">Travel Tips</a></li>
-            <li><a href="#">Accommodations</a></li>
           </ul>
         </div>
         <div className="footer-col">
           <h4>Company</h4>
           <ul>
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Partnerships</a></li>
           </ul>
         </div>
         <div className="footer-col">
           <h4>Support</h4>
           <ul>
             <li><a href="#">Contact Us</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Services</a></li>
           </ul>
         </div>
         <div className="footer-newsletter">

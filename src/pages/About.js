@@ -13,7 +13,7 @@ function About() {
           <div className="about-underline"></div>
           <h3 className="about-highlight">At Trip Tailor, we believe that every traveller deserves a journey that is uniquely theirs.</h3>
           <p>Whether you are dreaming of sun-kissed beaches, bustling cityscapes, or serene mountain retreats, our platform helps you discover destinations that perfectly match your vibe, budget, and adventure style.</p>
-          <p>We go beyond typical travel searches — our smart filters and personalized recommendations make planning your next escape effortless and exciting. From hidden gems to world-famous spots, we are here to guide you toward your perfect getaway.</p>
+          <p>We go beyond typical travel searches, our smart filters and personalized recommendations make planning your next escape effortless and exciting. From hidden gems to world-famous spots, we are here to guide you toward your perfect getaway.</p>
           <p>Start exploring with us and turn your travel dreams into unforgettable memories.</p>
           <div className="about-stats">
             <div className="about-stat"><span>500+</span><br/>Destinations</div>
